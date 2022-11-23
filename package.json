@@ -2,9 +2,9 @@
 	"name": "security-basics",
 	"version": "1.0.0",
 	"description": "A simple Express server",
-	"main": "index.js",
+	"main": "app.js",
 	"scripts": {
-		"start": "nodemon server.js"
+		"start": "nodemon app.js"
 	},
 	"author": "Maximiliano Rangel",
 	"license": "ISC",
@@ -19,6 +19,7 @@
 		"sequelize": "^6.21.4"
 	},
 	"devDependencies": {
-		"nodemon": "^2.0.20"
+		"nodemon": "^2.0.20",
+		"sequelize-cli": "^6.5.2"
 	}
 }
