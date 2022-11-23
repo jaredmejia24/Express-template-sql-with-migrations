@@ -1,5 +1,6 @@
 // Models
-const { User } = require('../models/user.model');
+const db = require('../models/index');
+const User = db.user;
 
 // Utils
 const { catchAsync } = require('../utils/catchAsync.util');
